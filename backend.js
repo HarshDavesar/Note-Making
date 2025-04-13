@@ -64,7 +64,7 @@ app.delete('/delete-note', async (req, res) => {
     }
 });
 
-// Optional: Get All Notes
+
 app.get('/notes', async (req, res) => {
     try {
         const notes = await Note.find();
